@@ -138,7 +138,7 @@
       const code = location.hash.slice(1).trim();
 
       if (code) {
-        siBtn.href = "https://is.gd/" + encodeURIComponent(code);
+        siBtn.href = "https://a.cuentica.com/" + code;
       } else {
         siBtn.style.opacity = "0.6";
         siBtn.style.pointerEvents = "none";
@@ -149,7 +149,7 @@
         mensaje.style.display = "block";
         setTimeout(() => {
           location.href = "https://www.google.com";
-        }, 1500);
+        }, 1000);
       });
     })();
   </script>
